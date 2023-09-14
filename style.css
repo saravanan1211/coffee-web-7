@@ -1,0 +1,1191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 100px;
+}
+.container{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index:10;
+    background-color:black; 
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color:white;
+}
+.logo img{
+    width:20%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.navlinks{
+    position: absolute;
+    width: 5%;
+    display: flex;
+    margin-left: 900px;
+    text-transform: capitalize;
+    margin-top: 50px;   
+}
+.navlinks li{
+    list-style-type: none;
+}
+.navlinks li a{
+    text-decoration: none;
+    padding: 15px 15px;   
+}
+.navlinks li a:hover{
+    color: black;
+}
+#home{
+    width: 100%;
+    height: 800px;
+   
+}
+.bg{
+    position: absolute;
+    background-image: url(images/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 50rem;
+    background-attachment: scroll;
+}
+.con{
+    position: absolute;
+    width: 50%;
+    height: 400px;
+    margin-left:20px;
+    margin-top: 180px; 
+
+}
+.con h1{
+    position: absolute;
+    width:60%;
+    height: 70px;
+    margin-left:250px;
+    margin-top: 100px;
+    text-transform: capitalize;
+    font-size:2.5rem;
+
+} 
+.con p{
+    width:80%;
+    height: 50px;
+    margin-left:90px;
+    margin-top: 150px;
+    text-align: center;
+    font-size:1.2rem; 
+    font-family: inherit;
+   font-weight: 500;
+   line-height: 1.2;
+   color: inherit;
+}
+.con button{
+    position: absolute;
+    width:20%;
+    height: 50px;
+    margin-left: 280px;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color: white;
+    background-color:dodgerblue;
+    border:1px solid dodgerblue;
+}
+.con button:hover{
+    background-color:blue;
+}
+
+#about{
+    width: 90%;
+    height: 500px;
+    border: 0.5px solid gainsboro;
+    margin-left: 80px;
+}
+.contain{
+    display: flex;
+}
+.contain img{
+    width:50%;
+    height: 500px;
+    border: 0.5px solid gainsboro;
+}
+.box-1{
+    background-color: dodgerblue;
+    height: 400px;
+    width: 45%;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.box-1 h1{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.box-1 p{
+    width: 70%;
+    font-size: 1.2rem;
+    margin-left: 50px;
+
+}
+.box-1 button{
+    width:20%;
+    height: 50px;
+    margin-left: 60px;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color: white;
+    background-color:darkturquoise;
+    border:1px solid dodgerblue;
+    margin-top: 10px;
+    
+}
+.box-1 button:hover{
+    background-color:dodgerblue;  
+}
+#two{
+    width: 90%;
+    height: 140px;
+    margin-left: 80px;
+    border: 0.5px solid gainsboro;
+}
+.con-3 img{
+    width: 25%;
+    height: 90px;
+}
+.con-3 h1{
+    margin-left: 15px;
+    margin-top:5px;
+    font-size: 2rem;
+}
+#three{
+    width: 90%;
+    height: 200px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 0.5px solid gainsboro;
+    margin-left: 80px;
+}
+.box-3{
+    width:100%;
+    height: 200px;
+    border: 0.5px solid gainsboro;
+}
+.box-4{
+    width: 100%;
+    height: 200px;
+    border: 0.5px solid gainsboro;
+}
+.box-5{
+    width:100%;
+    height: 200px;
+    border: 0.5px solid gainsboro;
+
+}
+.box-6{
+    width:100%;
+    height: 200px;
+    border: 0.5px solid gainsboro;
+}
+#menu{
+    width: 90%;
+    margin-left: 80px;
+    height: 170px;
+    border: 0.5px solid gainsboro; 
+    
+}
+.box-7 img{
+    width: 25%;
+    height: 100px;
+}
+.box-7 h1{
+    margin-left: 15px;
+    height: 160px;
+    font-size: 2rem;
+    margin-top: 5px;
+}
+#five{
+    width: 90%;
+    height: 340px;
+    border: 0.5px solid gainsboro;
+    margin-left: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.box-8{
+    width: 100%;
+    height: 340px;
+    border: 0.5px solid gainsboro;
+}
+.box-8 img{
+    width: 75%;
+}
+.box-8 h1{
+    font-size:1.8rem;    
+}
+
+.box-9{
+    width: 100%;
+    height: 340px;
+    border: 0.5px solid gainsboro;
+}
+.box-9 img{
+    width: 75%;
+}
+.box-9 h1{
+    font-size:1.8rem;
+}
+.box-10{
+    width: 100%;
+    height: 340px;
+    border: 0.5px solid gainsboro;
+}
+.box-10 img{
+    width: 75%;
+}
+.box-10 h1{
+    font-size:1.8rem;
+}
+
+.box-11{
+    width: 100%;
+    height: 340px;
+    border: 0.5px solid gainsboro;
+}
+.box-11 img{
+    width: 75%;
+}
+.box-11 h1{
+    font-size:1.8rem;
+}
+
+.box-12{
+    width: 100%;
+    height: 340px;
+    border: 0.5px solid gainsboro;
+}
+.box-12 img{
+    width: 75%;
+}
+.box-12 h1{
+    font-size:1.8rem;
+}
+.box-13{
+    width: 100%;
+    height: 340px;
+    border: 0.5px solid gainsboro;
+}
+.box-13 img{
+    width: 75%;
+}
+.box-13 h1{
+    font-size:1.8rem;
+}
+#gallery{
+    width: 90%;
+    height: 150px;
+    margin-left: 80px;
+    border: 0.5px solid gainsboro;
+    text-transform: capitalize;
+    margin-top: 340px;
+}
+.box-14 img{
+    width: 25%;
+    height: 100px;
+}
+.box-14 h1{
+    margin-left: 15px;
+    margin-top: 5px;
+    font-size: 2rem;
+}
+#eight{
+    width: 90%;
+    height: 300px;
+    border: 0.5px solid gainsboro;
+    margin-left: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.box-15{
+    width: 100%;
+    height: 300px;
+    border: 0.5px solid gainsboro;
+    
+}
+.box-15 img{
+    width: 90%;
+    height: 280px;
+    margin-left: 20px;
+}
+.box-16{
+width: 100%;
+height: 300px;
+border: 0.5px solid gainsboro;
+}
+.box-16 img{
+    width: 90%;
+    margin-left: 20px;
+    height: 280px;
+}
+.box-17{
+    width: 100%;
+    height: 300px;
+    border: 0.5px solid gainsboro;
+    }
+    .box-17 img{
+        width: 90%;
+        height: 280px;
+        margin-left: 20px;
+    }
+  
+    .box-18{
+        width: 100%;
+        height: 300px;
+        border: 0.5px solid gainsboro;
+        
+    }
+    .box-18 img{
+        width: 90%;
+        margin-left: 20px;
+        height: 280px;
+    }
+    .box-19{
+    width: 100%;
+    height: 300px;
+    border: 0.5px solid gainsboro;
+    }
+    .box-19 img{
+        width: 90%;
+        margin-left: 20px;
+        height: 280px;
+    }
+    .box-20{
+        width: 100%;
+        height: 300px;
+        border: 0.5px solid gainsboro;
+        }
+        .box-20 img{
+            width: 90%;
+            margin-left: 20px;
+            height: 280px;
+        }
+         #team{
+            width: 90%;
+            height: 140px;
+            margin-left: 80px;
+            border: 0.5px solid gainsboro;
+            text-transform: capitalize;
+            margin-top: 300px;
+        }
+        .box-21 img{
+            width: 25%;
+            height: 90px;
+        }
+        .box-21 h1{
+            margin-left: 40px;
+            margin-top: 10px;
+            font-size: 2rem;
+        }
+          #eleven{
+            width: 90%;
+            height: 400px;
+            border: 0.5px solid gainsboro;
+            margin-left: 80px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .box-22{
+            width: 100%;
+            height: 400px;
+            border: 0.5px solid gainsboro;
+        }
+        .box-22 img{
+            width: 90%;
+            margin-left: 20px;
+        }
+        .box-22 h1{
+            font-size:1.8rem;
+        }
+        
+        .box-23{
+            width: 100%;
+            height: 400px;
+            border: 0.5px solid gainsboro;
+        }
+        .box-23 img{
+            width: 90%;
+            margin-left: 20px;
+        }
+        .box-23 h1{
+            font-size:1.8rem;
+        }
+        .box-24{
+            width: 100%;
+            height: 400px;
+            border: 0.5px solid gainsboro;
+        }
+        .box-24 img{
+            width: 90%;
+            margin-left: 20px;
+        }
+        .box-24 h1{
+            font-size:1.8rem;
+        }
+      
+        .box-25{
+            width: 100%;
+            height: 400px;
+            border: 0.5px solid gainsboro;
+        }
+        .box-25 img{
+            width: 90%;
+            margin-left: 20px;
+        }
+        .box-25 h1{
+            font-size:1.8rem;
+        }
+        
+        .box-26{
+            width: 100%;
+            height: 400px;
+            border: 0.5px solid gainsboro;
+        }
+        .box-26 img{
+            width: 90%;
+            margin-left: 20px;
+        }
+        .box-26 h1{
+            font-size:1.8rem;
+        }
+        .box-27{
+            width: 100%;
+            height: 400px;
+            border: 0.5px solid gainsboro;
+        }
+        .box-27 img{
+            width: 90%;
+            margin-left: 20px;
+        }
+        .box-27 h1{
+            font-size:1.8rem;
+        }
+         #contact{
+            width: 90%;
+            height: 140px;
+            margin-left:80px;
+            border: 0.5px solid gainsboro;
+            text-transform: capitalize;
+            margin-top: 400px;
+        }
+        .box-28 img{
+            width: 25%;
+            height: 90px;
+        }
+        .box-28 h1{
+            margin-left: 40px;
+            margin-top: 10px;
+            font-size: 2rem;
+        }
+        #fifteen{
+    width: 90%;
+    height:500px;
+    margin-left:80px; 
+    border: 0.5px solid gainsboro;
+}
+.box-29{
+    display: flex;
+}
+.box-29 img{
+    width: 119%;
+    height: 500px; 
+    border: 0.5px solid gainsboro;
+    
+}
+.box-50{
+    border: 0.5px solid gainsboro;
+    height: 500px;
+    
+}
+.box-30{
+    width:80%;
+    height: 400px;
+    border: 0.5px solid black;
+    margin-left: 50px;
+}
+.box-30 h1{
+    margin-left: 150px;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.box-30 button{
+    margin-left: 200px;
+    background-color: brown;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    border: 2px solid brown;
+    color: white;
+}
+ .eml{
+    width: 60%;
+    font-size: large;
+    height: 50px;
+    margin: 20px 0px;
+    border: 0.5px solid black;
+    padding: 0px 20px;
+    margin-left: 100px;
+
+}
+#sixteen{
+    width: 90%;
+    height:200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 80px;
+    border: 0.5px solid gainsboro
+}
+.box-34{
+    width: 100%;
+    height: 200px;
+    border: 0.5px solid gainsboro;
+   
+}
+
+.box-34 h2{
+    font-size:1.5rem;
+}
+.box-34 h3{
+    margin-top: 15px;
+
+
+}
+.box-34 i{
+        font-size: 2rem;
+        margin-left: 15px;
+        color: aqua;
+        border: 25px solid black;
+        background-color: black;
+        border-radius: 50%;
+    }
+.box-35{
+    width: 100%;
+    height: 200px;
+    border: 0.5px solid gainsboro;
+
+}
+.box-35 h2{
+    font-size:1.5rem;
+}
+.box-35 h3{
+    margin-top: 15px;
+    
+
+}
+.box-35 i{
+    font-size: 2rem;
+    margin-left: 15px;
+    color: aqua;
+    border: 25px solid black;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.box-36{
+    width: 100%;
+    height: 200px;
+    border: 0.5px solid gainsboro;
+}
+.box-36 h2{
+    font-size:1.5rem;
+}
+.box-36 h3{
+    margin-top: 15px;
+   
+}
+.box-36 i{
+    font-size: 2rem;
+    margin-left: 15px;
+    color: aqua;
+    border: 25px solid black;
+    background-color: black;
+    border-radius: 50%;
+}
+.box-37{
+    width:100%;
+    height:200px;
+    border: 0.5px solid gainsboro;
+}
+.box-37 h2{
+    font-size:1.5rem;
+}
+.box-37 h3{
+    margin-top: 15px;
+   
+}
+.box-37 i{
+    font-size: 2rem;
+    margin-left: 15px;
+    color: aqua;
+    border: 25px solid black;
+    background-color: black;
+    border-radius: 50%;
+}
+#seventeen{
+    width: 90%;
+    height: 150px;
+    margin-left: 80px;
+    border:0.5px solid gainsboro;
+    
+
+}
+.box-38{
+    width:30%;
+    height: 60px;
+    margin-left:350px;
+    margin-top: 40px;
+
+}
+.box-38 h4{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.line{
+    border: 1px solid black;
+     margin: 0 90px;
+     margin-top: 40px;
+}
+    #checkbtn, #check {
+        color:black;
+        padding: 10px 15px;
+        margin-bottom: 16px;
+        margin-top: 30px;
+        display: none;
+        border-radius: 6px;
+        margin-left: 10px;
+        border: 0.5px solid gainsboro;
+    }
+   
+@media (max-width:480px) {
+ #checkbtn {
+        display: block;
+        cursor: pointer;
+        margin-left: 100px;
+    }
+    #check:checked~.navlinks{
+        display: block;
+    }
+    .navlinks{
+        display: none;
+        margin-top: 100px;
+        margin-left: 1px;
+        background-color: antiquewhite;
+        width: 100%;
+        height: 200px;
+    }
+    .navlinks li{
+        margin: 10px 0px;
+    
+    }
+    .navlinks li a:hover{
+       color: brown;
+    }
+    .con{
+        margin-left: 5px;
+    }
+
+    .con h1{
+        width: 140%;
+        margin-left:80px;
+        margin-top: 100px;
+        font-size: 2rem;
+    }
+    .con p{
+        width: 150%;
+        margin-left: 50px;
+        margin-top:150px ;
+        height: 50px;
+    }
+    .con button{
+        width: 50%;
+        margin-left: 120px;
+        margin-top: 70px;
+
+    }
+    #about{
+        width: 90%;
+        margin-left: 20px;
+        height: 900px;
+
+    }
+    .contain{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .contain img{
+        width: 100%;
+    }
+    .box-1{
+        margin-left: 20px;
+        width: 90%;
+        height: 400px;
+    }
+    .box-1 h1{
+        width: 90%;
+        font-size: 2rem;
+        
+    }
+    .box-1 p{
+        width: 70%;
+    }
+    .box-1 button{
+        width: 30%;
+    }
+    #two{
+        width: 90%;
+        margin-left: 20px;
+    }
+    .con-3 img{
+        width: 75%;
+        margin-left: 40px;
+    }
+    .con-3 h1{
+        margin-left:85px;
+    }
+    #three{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+        width: 90%;
+        height: 200px;
+    }
+    .box-3{
+          height: 200px;
+    }
+    .box-3 img{
+        margin-left: 100px;
+    }
+    .box-3 h1{
+        margin-left: 60px;
+        width:90%;
+    }
+    .box-3 p{
+        margin-left: 60px;
+
+    }
+
+    .box-4{
+        height: 250px;
+    }
+    .box-4 img{
+        margin-left: 100px;
+        
+    }
+    .box-4 h1{
+        margin-left: 80px;
+    }
+    .box-4 p{
+        margin-left: 60px;
+    
+    
+    }
+    .box-5{
+        height: 220px;
+    }
+    .box-5 img{
+        margin-left: 100px;
+    }
+    .box-5 h1{
+        margin-left: 60px;
+        width: 90%;
+    }
+    .box-5 p{
+        margin-left: 60px;
+    
+    
+    }
+    .box-6{
+        height: 200px;
+        
+    }
+    .box-6 img{
+        margin-left: 100px;
+    }
+    .box-6 h1{
+        margin-left: 60px;
+        width: 80%;
+    }
+    .box-6 p{
+        margin-left: 60px;
+        width: 80%;
+
+    
+    }
+    #three{
+        height: 870px;
+    }
+    #menu{
+        margin-left:20px;
+        width: 90%;
+        height: 200px;
+    
+    }
+    .box-7 img{
+        width: 75%;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .box-7 h1{
+        margin-left: 70px;
+    }
+    #five{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+        width: 90%;
+        height: 250px;
+    }
+    .box-8{
+        height: 250px;
+    }
+    .box-8 img{
+        width: 75%;
+        height: 200px;
+        margin-left: 30px;
+    }
+    .box-8 h1{
+        margin-left: 60px;
+    }
+    .box-9{
+        height: 250px;
+    }
+    .box-9 img{
+        width: 75%;
+        height: 200px;
+        margin-left: 30px;
+    }
+    .box-9 h1{
+        margin-left: 70px;
+    }
+    .box-10{
+        height: 250px;
+    }
+    .box-10 img{
+        width: 75%;
+        height: 200px;
+        margin-left: 30px;
+    }
+    .box-10 h1{
+        margin-left: 70px;
+    
+    }
+    .box-11{
+        height: 250px;
+    }
+    .box-11 img{
+        width: 75%;
+        height: 200px;
+        margin-left: 30px;
+    }
+    .box-11 h1{
+        margin-left: 70px;
+    
+    }
+    .box-12{
+        height: 250px;
+        width: 100%;
+    }
+    .box-12 img{
+        width: 75%;
+        height: 200px;
+        margin-left: 30px;
+    }
+    .box-12 h1{
+        margin-left: 70px;
+    }
+    .box-13{
+        height: 250px;
+    }
+    
+    .box-13 img{
+        width: 75%;
+        height: 200px;
+        margin-left: 30px;
+    }
+    .box-13 h1{
+        margin-left: 40px;
+        width: 90%;
+    }
+    #gallery{
+        margin-top: 1250px;
+        margin-left: 20px;
+        width: 90%;
+    }
+    .box-14 img{
+        width: 75%;
+        margin-left: 40px;
+    }
+    .box-14 h1{
+        margin-left: 75px;
+    }
+    #eight{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+        width: 90%;
+    }
+    .box-15 img{
+        width:90%;
+        height: 300px;
+        margin-left: 20px;
+    
+
+    }
+    .box-16 img{
+        width:90%;
+        height: 300px;
+        margin-left: 20px;
+    }
+    .box-17 img{
+        width:90%;
+        height: 300px;
+        margin-left: 20px;
+    }
+    .box-18 img{
+        width: 90%;
+        height: 300px;
+        margin-left: 20px;
+    }
+    .box-19 img{
+        width: 90%;
+        height: 300px;
+        margin-left: 20px;
+    }
+    .box-20 img{
+        width: 90%;
+        height: 300px;
+        margin-left: 20px;
+    }
+    #team{
+        margin-top: 1500px;
+        margin-left: 20px;
+        width: 90%;
+    }
+    .box-21 img{
+        width: 75%;
+        margin-left: 20px;
+    }
+    .box-21 h1{
+       margin-left: 80px;
+    }
+    .box-22 h1{
+        margin-left: 100px;
+    }
+    #eleven{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+        width: 90%;
+        height: 340px;
+    }
+    .box-22{
+        height: 340px;
+
+    }
+    .box-22 img{
+        width: 90%;
+        height: 300px;
+        margin-left: 20px;
+    }
+    .box-23{
+        height: 340px;
+    
+    }
+    .box-23 img{
+        width: 90%;
+        height: 300px;
+        margin-left: 20px;
+    }
+    .box-23 h1{
+        margin-left: 90px;
+    }
+
+    .box-24{
+        height: 340px;
+    }
+    .box-24 h1{
+        margin-left: 120px;
+    }
+
+    .box-24 img{
+        width: 90%;
+        height: 300px;
+        margin-left: 20px;
+    }
+    .box-25{
+        height: 340px;
+    }
+    .box-25 h1{
+        margin-left: 90px;
+    }
+
+    .box-25 img{
+        width: 90%;
+        height: 300px;
+        margin-left: 20px;
+    }
+    .box-26{
+        height: 340px;
+    
+    }
+    .box-26 h1{
+        margin-left: 90px;
+    }
+
+    .box-26 img{
+        width: 90%;
+        height: 300px;
+        margin-left: 20px;
+    }
+    .box-27{
+        height: 340px;
+    }
+    .box-27 h1{
+        margin-left: 90px;
+    }
+
+    .box-27 img{
+        width: 90%;
+        height: 300px;
+        margin-left: 20px;
+    }
+    #contact{
+        margin-top: 1700px;
+        margin-left: 20px;
+        width: 90%;
+    }
+    .box-28 img{
+        width: 75%;
+        margin-left: 40px;
+    }
+    .box-28 h1{
+        margin-left: 80px;
+    }
+    .box-29{
+        display: grid;
+        grid-template-columns: 1fr;
+         
+    }
+    .box-29 img{
+        width: 100%;
+        height: 450px;  
+    }
+    #fifteen{
+        margin-left: 20px;
+        width: 90%;
+        height: 450px;
+    }
+    .box-30{
+        width: 90%;
+        height: 380px;
+        margin-left: 20px;
+    }
+
+    .eml{
+        margin-left: 50px;
+        width: 70%;
+    }
+    .box-30 h1{
+        width: 80%;
+        margin-left: 60px;
+        font-size: 1.8rem;
+
+    }
+    .box-30 button{
+        margin-left: 100px;
+    }
+    #sixteen{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+        margin-top: 400px;
+        width: 90%;
+    
+    }
+    #seventeen{
+        margin-top: 600px;
+        margin-left: 20px;
+        width: 90%;
+    }
+    .line{
+        width: 80%;
+        margin-left: 60px;
+
+    }
+    .box-38 {
+        width:50%;
+        margin-left: 50px;
+    }
+    .box-38 h4{
+        width: 160%;
+        padding: 10px 10px;
+
+    }
+    .box-34 h2{
+        margin-left: 110px;
+    }
+    .box-34 i{
+        margin-left: 120px;
+    }
+    .box-34 h3{
+        margin-left: 90px;
+    }
+    .box-35 h2{
+        margin-left: 110px;
+    }
+    .box-35 i{
+        margin-left: 120px;
+    }
+    .box-35 h3{
+        margin-left: 90px;
+    }
+    .box-36 h2{
+        margin-left: 110px;
+    }
+    .box-36 i{
+        margin-left: 120px;
+    }
+    .box-36 h3{
+        margin-left: 90px;
+    }
+    .box-37 h2{
+        margin-left: 110px;
+    }
+    .box-37 i{
+        margin-left: 120px;
+    }
+    .box-37 h3{
+        margin-left: 90px;
+    }
+    .box-50{
+        height: 400px;
+
+    }
+
+}
+
+
+    
+    
+    
